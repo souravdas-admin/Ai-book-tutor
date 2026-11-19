@@ -1,0 +1,34 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local AI database and generated book data
+chroma_db/
+book_pages.json
+chapters.json
+
+# Original copyrighted book
+books/
+
+# Downloaded models
+models/
+*.gguf
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
